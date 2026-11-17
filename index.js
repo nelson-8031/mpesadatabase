@@ -71,7 +71,7 @@ function buildPath(route, param = {}) {
             // id      = checkoutId
             return  `WorksEthics/UpdatedPayments/${param.section}/${param.regno}`;
                    case "vallensiltransactions":
-            return param.id? `Vallensil/TXN/${param.id}`:`Vallensil/TXN`;
+            return param.id? `Vallensil/Tranxlog/${param.id}`:`Vallensil/Tranxlog`;
         case "WishMartPay":
             return param.phone
                 ? `WishMartPay/UpdatedPayments/${param.section}/${param.phone}/${param.id}` :
